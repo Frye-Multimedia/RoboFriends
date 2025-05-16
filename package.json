@@ -1,6 +1,6 @@
 {
   "name": "robofriends",
-  "homepage": "https://frye-multimedia.github.io/RoboFriends/",
+  "homepage": "https://Frye-Multimedia.github.io/RoboFriends/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,15 +9,14 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d dist"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.6",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "tachyons": "^4.12.0",
-    "tailwindcss": "^4.1.6"
+    "tachyons": "^4.12.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.25.0",
